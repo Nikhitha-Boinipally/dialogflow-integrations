@@ -29,10 +29,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //See https://dialogflow.com/docs/reference/v2-auth-setup and
 // https://cloud.google.com/dialogflow/docs/setup for details.
 
-const projectId = 'elated-drive-339510';
+const projectId = '';
 const phoneNumber = "+(681) 491-4412";
-const accountSid = 'AC3a39dbc2b5f215193a2bd8cb72fd84e3';
-const authToken = '38e02b5c6b09c7cd72252ea6a006e4fb';
+const accountSid = '';
+const authToken = '';
 
 const client = require('twilio')(accountSid, authToken);
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
